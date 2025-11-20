@@ -37,7 +37,7 @@ if st.button("Plan My Trip 🌟"):
 
 
             st.success("✅ Travel plan generated!")
-            st.write(plan)
+            st.code(plan)
 
         except Exception as e:
             st.error(f"Error generating travel plan: {e}")
